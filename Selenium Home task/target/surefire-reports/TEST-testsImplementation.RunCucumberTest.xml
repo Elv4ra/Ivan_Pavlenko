@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="25" failures="0" name="testsImplementation.RunCucumberTest" time="132.624" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="user.country.format" value="UA"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:/Универ/Тестировка/Ivan_Pavlenko/Selenium Home task"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Универ\Тестировка\Ivan_Pavlenko\Selenium Home task"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Program Files/apache-maven-3.8.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\user\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\user\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Sublime Text 3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Program Files/apache-maven-3.8.5/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Program Files/apache-maven-3.8.5/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="C:/Program Files/apache-maven-3.8.5/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test allure:serve"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="testing adding product to the cart" name="User adds selected product to the cart #1" time="6.039"/>
+  <testcase classname="testing adding product to the cart" name="User adds selected product to the cart #2" time="5.607"/>
+  <testcase classname="testing adding product to the cart" name="User adds selected product to the cart #3" time="4.747"/>
+  <testcase classname="testing purchase confirmation" name="User selects product and adds it to the cart, #1" time="8.325"/>
+  <testcase classname="testing purchase confirmation" name="User selects product and adds it to the cart, #2" time="8.796"/>
+  <testcase classname="testing filling up the place order form and Purchase button" name="User fills up Place Order form #1" time="4.588"/>
+  <testcase classname="testing filling up the place order form and Purchase button" name="User fills up Place Order form #2" time="4.447"/>
+  <testcase classname="testing logging in and product buying processes of the site" name="User opens home page of the tested site," time="10.965"/>
+  <testcase classname="testing logging in mechanism of the tested site" name="User logs in at different pages of the tested site #1" time="5.134"/>
+  <testcase classname="testing logging in mechanism of the tested site" name="User logs in at different pages of the tested site #2" time="6.636"/>
+  <testcase classname="testing logging in mechanism of the tested site" name="User logs in at different pages of the tested site #3" time="4.796"/>
+  <testcase classname="testing logging in mechanism of the tested site" name="User logs in at different pages of the tested site #4" time="5.942"/>
+  <testcase classname="testing cart section and Place Order button" name="User opens cart section #1" time="4.782"/>
+  <testcase classname="testing cart section and Place Order button" name="User opens cart section #2" time="4.608"/>
+  <testcase classname="testing cart section and Place Order button" name="User opens cart section #3" time="4.69"/>
+  <testcase classname="testing cart section and Place Order button" name="User is at the cart page and clicks Place Order button" time="3.884"/>
+  <testcase classname="testing category selection at the home page of the tested site" name="User selects different categories at home page #1" time="3.269"/>
+  <testcase classname="testing category selection at the home page of the tested site" name="User selects different categories at home page #2" time="3.078"/>
+  <testcase classname="testing category selection at the home page of the tested site" name="User selects different categories at home page #3" time="2.85"/>
+  <testcase classname="testing product selection at the home page of the tested site" name="User selects different products #1" time="4.716"/>
+  <testcase classname="testing product selection at the home page of the tested site" name="User selects different products #2" time="4.894"/>
+  <testcase classname="testing product selection at the home page of the tested site" name="User selects different products #3" time="5.156"/>
+  <testcase classname="testing product selection at the home page of the tested site" name="User selects products after category selection #1" time="5.334"/>
+  <testcase classname="testing product selection at the home page of the tested site" name="User selects products after category selection #2" time="4.747"/>
+  <testcase classname="testing product selection at the home page of the tested site" name="User selects products after category selection #3" time="4.594"/>
+</testsuite>
