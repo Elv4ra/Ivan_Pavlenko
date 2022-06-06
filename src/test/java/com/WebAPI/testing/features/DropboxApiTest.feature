@@ -5,8 +5,8 @@ Feature:
 
   Scenario Outline: Testing upload file operation
     Given User has file "<name>" placed at root directory of the app
-    When User uploads file "<name>" to the Dropbox using API
-    Then API responses with metadata
+    When User uploads file to the Dropbox using API
+    Then API responses with file "<name>" metadata
     Examples:
     | name     |
     | data.pdf |
@@ -14,17 +14,17 @@ Feature:
 
   Scenario Outline: Testing get file metadata operation
     Given User has already uploaded file "<name>" to the Dropbox
-    When User gets file "<name>" metadata using Dropbox API
-    Then metadata must be same as response from upload operation
+    When User gets file metadata using Dropbox API
+    Then API responses with file "<name>" metadata
     Examples:
     | name     |
     | data.pdf |
 
 
   Scenario Outline: Testing delete file operation
-    Given User has already uploaded file "<name>" to the Dropbox
-    When User deletes file "<name>" from Dropbox using API
-    Then file is deleted
+    Given User has file "<name>" in the Dropbox storage
+    When User deletes file from Dropbox using API
+    Then API responses with deleted file "<name>" metadata
     Examples:
     | name     |
     | data.pdf |
